@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav .list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    list-style-type: none;
+    margin-left: 400px;
+    font-size: 20px;
+    font-family: "Signika", sans-serif;
+    text-decoration: none;
+}
+.logo{
+    font-size: 30px;
+    letter-spacing: 2px;
+    position: relative;
+    top: 40px;
+    left: 80px;
+}
+.list .list-item a{
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
+}
+.introduction{
+    max-width: 500px;
+    position: absolute;
+    top:30%;
+    left: 10%;
+}
+.introduction h1{
+    font-size: 4em;
+    color: #222f3e;
+    font-family: "crimson", sans-serif;
+}
+.introduction p{
+    font-size: 20px;
+    margin-top: 25px;
+    font-family: "Bitter", sans-serif;
+}
+button{
+    text-decoration: none;
+    margin-top: 25px;
+    border: none;
+}
+button a{
+    text-decoration: none;
+    background: #01a3a4;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 20px;
+    font-family: "Bitter", sans-serif;
+    border-radius: 8px;
+}
+.box{
+    width:60%;
+    height: 70%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: rgba(255, 234, 167, 0.7);
+    z-index: -2;
+}
+.box2{
+    width: 30%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: rgba(102, 204, 153);
+    z-index: -1;
+}
+.img img{
+    width: 30%;
+    height: 40%;
+    position: relative;
+    left: 70%;
+   margin-top: 3%;
+}
