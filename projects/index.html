@@ -9,10 +9,15 @@
     <link rel="stylesheet" href="style.css">
 <body>
     <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
         body{
          background: #005AA7;  /* fallback for old browsers */
          background: -webkit-linear-gradient(to right, #FFFDE4, #005AA7);  /* Chrome 10-25, Safari 5.1-6 */
          background: linear-gradient(to right, #FFFDE4, #005AA7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
 
         }
         .header h1{
@@ -21,20 +26,16 @@
             font-family: "orbito", sans-serif;
         }
         .project{
-            width: 40%;
-            text-align: center;
-            position: relative;
-            left: 370px;
             color: #fff;
+            height: 100vh;
+            margin-left: 40px;
         }
         .img-1{
             width: 90%;
         }
-       span i{
-        font-size: 30px;
-        position: relative;
-        bottom: 230px;
-       }
+        span{
+            display: none;
+        }
        button{
         margin: 10px 40px;
         padding: 10px 20px;
@@ -46,15 +47,81 @@
         color: #fff;
         text-decoration: none;
      }
-     .project-1, .project-2, .project-3, .project-4, .project-5, .project-6, .project-7, .project-8, .project-9, .project-10, .project-11{
-        border: 1px solid rgb(8, 172, 245);;
+     .project-1, .project-2, .project-3, .project-4, .project-5, .project-6, .project-7, .project-8, .project-9, .project-10, .project-11, .project-12, .project-13, .project-14, .project-15{
+        /* border: 1px solid rgb(8, 172, 245); */
+        width: 40%;
+        background-color: #005AA7;
+        text-align: center;
+        
      }
-    
+     .project-2{
+        margin-left: 600px;
+        position: relative;
+        bottom: 310px;
+        padding-bottom: 10px;
+     }
+     .project-3{
+        position: relative;
+        bottom: 250px;
+     }
+     .project-4{
+        position: relative;
+        left: 600px;
+        bottom: 540px;
+     }
+     .project-5{
+        position: relative;
+        bottom: 500px;
+     }
+     .project-6{
+        position: relative;
+        left: 600px;
+        bottom: 800px;
+     }
+     .project-7{
+        position: relative;
+        bottom: 700px;
+     }
+     .project-8{
+        position: relative;
+        left: 600px;
+        bottom: 977px;
+     }
+     .project-9{
+        position: relative;
+        bottom: 900px;
+     }
+     .project-10{
+        position: relative;
+        left: 600px;
+        bottom: 1200px;
+        padding-bottom: 30px;
+     }
+    .project-11{
+        position: relative;
+        bottom: 1100px;
+    }
+    .project-12{
+        position: relative;
+        bottom: 1400px;
+        left: 600px;
+        padding-bottom: 60px;
+    }
+    .project-13{
+        position: relative;
+        bottom: 1300px;
+    }
+    .project-14{
+        position: relative;
+        bottom: 1570px;
+        left: 600px;
+    }
+    .project-15{
+        position: relative;
+        bottom: 1500px;
+    }
     </style>
     <!-- header section  -->
-     <div class="header">
-        <h1>Here are my  projects</h1>
-     </div>
        <div class="project">
         <div class="project-1">
         <h2>Street style landing page</h2>
@@ -155,6 +222,42 @@
                </button>
                <button> <a href="https://ineuronproject-11.netlify.app/" target="_blank" rel="noopener noreferrer">Live Link</a></button>
                 </div>
+                <div class="project-12">
+                    <h2>Business landing page</h2>
+                   <span><i class="fa-solid fa-circle-arrow-right"></i></span>
+                   <img src="../images/project-12.PNG" alt="" class="img-12" width="90%" >
+                   <button>
+                       <a href="https://github.com/rishuk524/project-12" target="_blank" rel="noopener noreferrer">Github</a>
+                   </button>
+                   <button> <a href="https://ineuronproject-12.netlify.app/" target="_blank" rel="noopener noreferrer">Live Link</a></button>
+                    </div>
+                    <div class="project-13">
+                        <h2>SASS landing page</h2>
+                       <span><i class="fa-solid fa-circle-arrow-right"></i></span>
+                       <img src="../images/project-13.png" alt="" class="img-13" width="90%" >
+                       <button>
+                           <a href="https://github.com/rishuk524/project-13" target="_blank" rel="noopener noreferrer">Github</a>
+                       </button>
+                       <button> <a href=" https://ineuronproject-13.netlify.app/" target="_blank" rel="noopener noreferrer">Live Link</a></button>
+                        </div>
+                        <div class="project-14">
+                            <h2>Dance landing page</h2>
+                           <span><i class="fa-solid fa-circle-arrow-right"></i></span>
+                           <img src="../images/project-14.png" alt="" class="img-14" width="90%" >
+                           <button>
+                               <a href="https://github.com/rishuk524/project-14" target="_blank" rel="noopener noreferrer">Github</a>
+                           </button>
+                           <button> <a href=" https://ineuronproject-14.netlify.app/" target="_blank" rel="noopener noreferrer">Live Link</a></button>
+                            </div>
+                            <div class="project-15">
+                                <h2>Product landing page</h2>
+                               <span><i class="fa-solid fa-circle-arrow-right"></i></span>
+                               <img src="../images/project-15.png" alt="" class="img-15" width="90%" >
+                               <button>
+                                   <a href="https://github.com/rishuk524/project-15" target="_blank" rel="noopener noreferrer">Github</a>
+                               </button>
+                               <button> <a href="https://ineuronproject-15.netlify.app/" target="_blank" rel="noopener noreferrer">Live Link</a></button>
+                                </div>
             </div>
          
 </body>
