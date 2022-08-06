@@ -86,7 +86,7 @@ button a{
     }
     .box{
         width:156%;
-         height: 65%;
+         height: 70%;
         position: absolute;
         right: -200px;
        
@@ -97,7 +97,7 @@ button a{
     }
     nav .list{
         display: flex;
-        gap: 60px;
+        gap: 50px;
     }
     body{
         overflow: hidden;
