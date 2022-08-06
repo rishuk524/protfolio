@@ -74,7 +74,7 @@ button a{
     height: 40%;
     position: relative;
     left: 70%;
-   margin-top: 3%;
+    bottom: 280px;
 }
 @media screen and (max-width:500px) {
     .box2{
@@ -103,3 +103,22 @@ button a{
         overflow: hidden;
     }
     }
+.social{
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 110px;
+    margin-left: 20px;
+}
+.fa-github{
+    text-decoration: none;
+    color: #000;
+}
+.fa-linkedin{
+    text-decoration: none;
+    color: #0A66C2;
+}
+.fa-instagram{
+    color: rgba(120, 61, 196, 0.845);
+}
