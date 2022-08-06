@@ -76,16 +76,16 @@ button a{
     left: 70%;
    margin-top: 3%;
 }
-@media screen and (max-width:600px) {
+@media screen and (max-width:500px) {
     .box2{
-        width: 90%;
-        height: 150%;
+        width: 95%;
+        height: 170%;
         position: absolute;
         right: -200px;
        
     }
     .box{
-        width:150%;
+        width:156%;
          height: 65%;
         position: absolute;
         right: -200px;
@@ -97,10 +97,9 @@ button a{
     }
     nav .list{
         display: flex;
-        gap: 70px;
+        gap: 60px;
     }
     body{
         overflow: hidden;
     }
     }
-}
