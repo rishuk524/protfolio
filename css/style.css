@@ -104,7 +104,10 @@ button a{
     }
     .social{
        position: relative;
-       bottom: 160px;
+       bottom: 150px;
+    }
+    .fa-instagram{
+        display: none;
     }
     }
 .social{
