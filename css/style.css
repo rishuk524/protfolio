@@ -115,6 +115,7 @@ button a{
     h1, p, button{
         margin-top: 30px;
      }
+
 }
 
 .social{
@@ -136,5 +137,7 @@ button a{
 .fa-instagram{
     color: rgba(120, 61, 196, 0.845);
 }
-
+body{
+    overflow: hidden;
+}
 
